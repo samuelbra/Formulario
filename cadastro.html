@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Formulario Cadastro</title>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastre-se</h1>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Nome Completo" id="nome">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" placeholder="Senha" id="senha">
+        <br>
+        <label for="nacimento">Data de Nacimento</label>
+        <input type="date" id="nacimento">
+
+        <fieldset>
+            <legend>Perfil</legend>
+            <label for="">Aluno</label> <input type="radio" value="Aluno" name="Perfil" id="aluno">
+            Professor <input type="radio" value="Professor" name="Perfil" id="professor">
+            <br>
+            <button type="reset">Cancelar</button>
+            <button>Salvar</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
